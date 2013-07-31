@@ -127,6 +127,7 @@ int SoftapController::setSoftap(int argc, char *argv[]) {
     char *wbuf = NULL;
     char *fbuf = NULL;
 
+    char *ssid = NULL;
     if (argc > 3) {
         ssid = argv[3];
     } else {
